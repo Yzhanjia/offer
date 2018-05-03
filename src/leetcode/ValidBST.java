@@ -19,10 +19,6 @@ public class ValidBST {
         if (root.val<=lastMin){
             return false;
         }
-        lastMin = root.val;
-        if (!isValidBST(root.right)){
-            return false;
-        }
         return true;
 
 
