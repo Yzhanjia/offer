@@ -10,17 +10,22 @@ package leetcode;
  */
 
 public class ValidBST {
-    static int lastMin = Integer.MIN_VALUE;
     public boolean isValidBST(TreeNode root) {
-        if (root==null) return true;
-        if (!isValidBST(root.left)){
-            return false;
-        }
-        if (root.val<=lastMin){
-            return false;
-        }
-        return true;
+        //long保存，int保存会除去边界值
+        return isValidBST(root,Long.MAX_VALUE,Long.MIN_VALUE);
+    }
 
-
+    private boolean isValidBST(TreeNode root,long Max,long Min) {
+       if (root==null){//遍历的终点：没有子节点
+           return true;
+       }
+       //若小于节点小于左子节点或大于右子节点，不符合二叉搜索树
+       if (root.val<=Min||root.val>=Max){
+           return false;
+       }
+       //左子节点小于当前节点，保存上一大值和小值为了保证子树符合二叉搜索树的规律
+       return isValidBST(root.left,root.val,Min)&&
+               //右子节点大于当前节点
+               isValidBST(root.right, Max, root.val);
     }
 }
