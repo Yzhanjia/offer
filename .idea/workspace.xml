@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ee9e194-3e0a-448c-9149-9ad67105a93e" name="Default" comment="delete">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Symmetric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/levelOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/offer/leetcode/ValidBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/offer/leetcode/ValidBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/offer/offer_all/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/offer/offer_all/.gitignore" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,17 +66,29 @@
       <file leaf-file-name="ValidBST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/ValidBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
+            <state relative-caret-position="368">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Symmetric.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Symmetric.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/Symmetric.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="506">
+              <caret line="22" column="5" selection-start-line="6" selection-start-column="3" selection-end-line="22" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="levelOrder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/levelOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="42" column="45" lean-forward="true" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,7 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/designPattern/factory/ProductA.java" />
         <option value="$PROJECT_DIR$/src/designPattern/factory/ProductB.java" />
         <option value="$PROJECT_DIR$/src/designPattern/factory/FactoryB.java" />
         <option value="$PROJECT_DIR$/src/designPattern/factory/Test.java" />
@@ -165,6 +179,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/Depth.java" />
         <option value="$PROJECT_DIR$/src/leetcode/ValidBST.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Symmetric.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/levelOrder.java" />
       </list>
     </option>
   </component>
@@ -206,6 +221,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,18 +239,11 @@
               <item name="offer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,7 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test.test">
+  <component name="RunManager" selected="Application.levelOrder">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -301,17 +310,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designPattern.strategy.Test" />
-      <module name="offer" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designPattern.strategy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="Unique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.Unique" />
       <module name="offer" />
@@ -325,6 +323,17 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="levelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.levelOrder" />
+      <module name="offer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="offer" />
@@ -401,19 +410,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.Test (2)" />
       <item itemvalue="Application.RemoveNth" />
       <item itemvalue="Application.Unique" />
       <item itemvalue="Application.MaxProfit" />
       <item itemvalue="JUnit.Test.test" />
+      <item itemvalue="Application.levelOrder" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.levelOrder" />
         <item itemvalue="JUnit.Test.test" />
         <item itemvalue="Application.MaxProfit" />
         <item itemvalue="Application.Unique" />
         <item itemvalue="Application.RemoveNth" />
-        <item itemvalue="Application.Test (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -464,7 +473,8 @@
       <workItem from="1525481351457" duration="17000" />
       <workItem from="1525481406784" duration="44000" />
       <workItem from="1525508717632" duration="1503000" />
-      <workItem from="1525528083518" duration="288000" />
+      <workItem from="1525528083518" duration="6826000" />
+      <workItem from="1525571541172" duration="474000" />
     </task>
     <task id="LOCAL-00001" summary="delete">
       <created>1525360607921</created>
@@ -480,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525509518234</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="delete">
+      <created>1525528545983</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1525528545983</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -516,7 +533,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125402000" />
+    <option name="totallyTimeSpent" value="132414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -527,11 +544,11 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.32781458" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50073206" side_tool="true" weight="0.57284766" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.32874355" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.32874355" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49853587" weight="0.32781458" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -541,16 +558,16 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3989726" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49926794" weight="0.397351" />
       <window_info anchor="bottom" id="SVN Repositories" order="7" sideWeight="0.49924356" visible="true" weight="0.32874355" />
       <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49924356" weight="0.32874355" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Mybatis datasource" order="4" side_tool="true" />
     </layout>
   </component>
@@ -730,18 +747,35 @@
           <properties />
           <option name="timeStamp" value="47" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/levelOrder.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/levelOrder.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/levelOrder.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/levelOrder.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="48" />
+      <option name="time" value="53" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/designPattern/factory/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/designPattern/factory/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -1078,15 +1112,25 @@
     <entry file="file://$PROJECT_DIR$/src/offer_all/.gitignore" />
     <entry file="file://$PROJECT_DIR$/src/leetcode/ValidBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
+        <state relative-caret-position="368">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/Symmetric.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="506">
+          <caret line="22" column="5" selection-start-line="6" selection-start-column="3" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/levelOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="42" column="45" lean-forward="true" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
