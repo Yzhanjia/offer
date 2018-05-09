@@ -27,16 +27,24 @@ public class climbStairs {
         climbStairs(44);
     }
     public static int climbStairs(int n) {
-//        if(n<=0){
-//            return 0;
-//        }
-//        if(n==1){
-//            return 1;
-//        }
-//        if(n==2){
-//            return 2;
-//        }
-//
-//        return climbStairs(n-1) + climbStairs(n-2);
+        if(n<=0){
+            return 0;
+        }
+        if(n==1){
+            return 1;
+        }
+        if(n==2){
+            return 2;
+        }
+
+//        return climbStairs(n-1) + climbStairs(n-2); 递归效率太低
+
+        int one = 1,two = 2, num = 0;
+        for (int i = 2; i < n; i++) {
+            num = one + two;//保存中间值
+            one = two;
+            two = num;//使用斐波那契公式的原始表达
+        }
+        return num;
     }
 }
