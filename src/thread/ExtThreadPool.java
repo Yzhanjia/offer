@@ -42,7 +42,7 @@ public class ExtThreadPool {
         };
 
         for (int i = 0; i < 5; i++) {
-            MyTask task = new MyTask("Task-Geym" + i);
+            MyTask task = new MyTask("TASK-GEYM-" + i);
             executorService.execute(task);
             Thread.sleep(10);
 
