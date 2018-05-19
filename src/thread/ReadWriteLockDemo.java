@@ -60,11 +60,11 @@ public class ReadWriteLockDemo {
             new Thread(readRunnale).start();
         }
         for (int i = 0; i < 20; i++) {
+
             new Thread(writeRunnale).start();
         }
 
 //        long endTime=System.currentTimeMillis(); //获取结束时间
 //        System.out.println("程序运行时间： "+(endTime-startTime)+"ms");
-
     }
 }

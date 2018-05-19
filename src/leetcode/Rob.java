@@ -17,9 +17,32 @@ package leetcode;
 解释: 偷窃 1 号房屋 (金额 = 2), 偷窃 3 号房屋 (金额 = 9)，接着偷窃 5 号房屋 (金额 = 1)。
      偷窃到的最高金额 = = 2 + 9 + 1 = 12 。
  */
-//
-//public class Rob {
-//    public int rob(int[] nums) {
-//
-//    }
-//}
+
+public class Rob {
+    public static int[] result;
+    public int rob(int[] nums) {
+        result = new int[nums.length];//保存结果
+        for (int i = 0; i < nums.length; i++) {
+            result[i] = -1;//初始化，以便后期判断是否遍历过
+        }
+        return solve(nums,nums.length-1);
+
+    }
+
+    private int solve(int[] nums, int index) {
+        if (index<0){
+            return 0;
+        }
+        if (result[index]>=0){//已遍历完全部数据
+            return result[index];
+        }
+        /*
+       从最后一个店开始，有两种可能，选择这家和下下家，或者不选这家
+       选下下家是同样的情况，递归
+       比较这两种的大小，可得结果
+       result数组存储每次的结果
+         */
+        result[index] = Math.max(solve(nums,index-1),solve(nums,index-2) + nums[index]);
+        return result[index];
+    }
+}
