@@ -1,6 +1,6 @@
 package leetcode;
-
 public class DeleteNode {
+
     public void deleteNode(ListNode node) {
 //        if (node.next==null){
 //            node = null;

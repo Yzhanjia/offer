@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Anagram {
+    
     public static boolean isAnagram(String s, String t) {
         if (s.equals(t)){
             return true;
