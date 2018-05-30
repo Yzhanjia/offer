@@ -12,7 +12,7 @@ import java.util.concurrent.LinkedBlockingDeque;
  **/
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        BlockingQueue<PCData> queue = new LinkedBlockingDeque<>(10);
+        BlockingQueue<PCData> queue = new LinkedBlockingDeque<PCData>(10);
         Producer producer1 = new Producer(queue);//建立生产者
         Producer producer2 = new Producer(queue);
         Producer producer3 = new Producer(queue);

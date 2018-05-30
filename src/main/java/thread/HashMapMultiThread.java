@@ -10,7 +10,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * @create: 2018-05-27 18:15
  **/
 public class HashMapMultiThread {
-    static Map<String, String> map = new ConcurrentHashMap<>();
+    static Map<String, String> map = new ConcurrentHashMap<String, String>();
 //    static Map<String, String> map = new HashMap<>();
 
     public static class AddThread implements Runnable {
@@ -20,7 +20,7 @@ public class HashMapMultiThread {
             this.start = start;
         }
 
-        @Override
+        //@Override
         public void run() {
             for (int i = 0; i < 1000000; i += 2) {
                 map.put(Integer.toString(i), Integer.toBinaryString(i));

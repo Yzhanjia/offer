@@ -32,11 +32,11 @@ public class levelOrder {
         levelOrder(root);
     }
     public static List<List<Integer>> levelOrder(TreeNode root) {
-        List<List<Integer>> lists = new ArrayList<>();
+        List<List<Integer>> lists = new ArrayList<List<Integer>>();
         if (root==null){
             return lists;
         }
-        Queue<TreeNode> queue = new LinkedList<>();
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
         queue.add(root);
         int nextLevel = 0;//记录下一层节点数
         int toBeAdd = 1;//当前层节点数，从第一层开始

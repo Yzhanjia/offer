@@ -10,7 +10,7 @@ import java.util.concurrent.Executors;
 public class ThreadLocalDemo {
     static volatile ThreadLocal<SimpleDateFormat> threadLocal = new ThreadLocal<SimpleDateFormat>(){
         @Override
-        protected void finalize() throws Throwable {
+        protected void finalize() {
             System.out.println(this.toString() + "is gc");
         }
     };
@@ -27,7 +27,7 @@ public class ThreadLocalDemo {
             if (threadLocal.get() == null){
                 threadLocal.set(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss"){
                     @Override
-                    protected void finalize() throws Throwable {
+                    protected void finalize() {
                         System.out.println(this.toString() + "is gc");
                     }
                 });

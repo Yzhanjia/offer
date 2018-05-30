@@ -10,10 +10,10 @@ import java.util.Vector;
  **/
 public class ArrayListMyltiThread {
     //    static ArrayList<Integer> list = new ArrayList<>(10);
-    static Vector<Integer> list = new Vector<>(10);
+    static Vector<Integer> list = new Vector<Integer>(10);
     public static class AddThread implements Runnable {
 
-        @Override
+        //@Override
         public void run() {
             for (int i = 0; i < 100000; i++) {
                 list.add(i);

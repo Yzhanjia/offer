@@ -31,7 +31,7 @@ public class Thirty_sevenTest {
         n4.left = n8;
         n4.right = n9;
 
-        List<Integer> result = new LinkedList<>();
+        List<Integer> result = new LinkedList<Integer>();
         serialize(n1, result);
         System.out.println(result);
         System.out.println();

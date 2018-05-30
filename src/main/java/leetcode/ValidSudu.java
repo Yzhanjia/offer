@@ -6,7 +6,7 @@ import java.util.Map;
 找出有效数独
  */
 public class ValidSudu {
-    static Map<Character,Integer> map = new HashMap<>();
+    static Map<Character, Integer> map = new HashMap<Character, Integer>();
     private static void initMap(){
         for (char i = 0; i < '9'; i++) {
             map.put(i,0);

@@ -6,7 +6,7 @@ import java.util.List;
 public class Thirty_four {
     public static void findPath(BinaryTreeNode pRoot,int expectedSum){
         if (pRoot==null) return;
-        List<Integer> list = new ArrayList<>();
+        List<Integer> list = new ArrayList<Integer>();
         findPath(pRoot,0,expectedSum,list);
     }
 

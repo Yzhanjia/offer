@@ -27,7 +27,7 @@ public class RefelectTest {
         return car;
     }
 
-    public static void main(String[] args) throws Throwable {
+    public static void main(String[] args) {
 //        Car car = initByDefaultConst();
         Car car = new Car("红旗CA72", "红色", 100);
         car.introduce();

@@ -5,7 +5,8 @@ public abstract class Duck {
     QuackBehavior quackBehavior;
     public  void swim(){
         System.out.println("Every duck can swim");
-    };
+    }
+
     public void fly(){
         flyBehavior.fly();
     }

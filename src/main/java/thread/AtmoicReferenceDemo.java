@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicReference;
  * @create: 2018-05-26 10:25
  **/
 public class AtmoicReferenceDemo {
-    static AtomicReference<Integer> money = new AtomicReference<>();
+    static AtomicReference<Integer> money = new AtomicReference<Integer>();
 
     public static void main(String[] args) {
         money.set(19);

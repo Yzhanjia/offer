@@ -33,7 +33,7 @@ public class TwoSum {
 /*
 用map存储target的差与对应位置，若后面包含该差，则找到另一数字
  */
-        Map<Integer,Integer> map = new HashMap<>();
+        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
         int[]sum = new int[2];
         for (int i = 0; i < nums.length; i++) {
             if (map.containsKey(nums[i])){

@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicStampedReference;
  * @create: 2018-05-26 19:12
  **/
 public class AtomicStampedReferenceDemo {
-    static AtomicStampedReference<Integer> money = new AtomicStampedReference<>(19, 0);
+    static AtomicStampedReference<Integer> money = new AtomicStampedReference<Integer>(19, 0);
 
     public static void main(String[] args) {
         for (int i = 0; i < 3; i++) {

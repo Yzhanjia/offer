@@ -12,7 +12,7 @@ public class Solution {
 
     }
     public static void Encypt(String s){
-        Map<Character,Character> map = new HashMap<>();
+        Map<Character, Character> map = new HashMap<Character, Character>();
         StringBuilder stringBuilder = new StringBuilder();
         map.put('1','2');
         map.put('2','4');

@@ -34,7 +34,7 @@ public class ThreadLocalTest {
         }
 
         @Override
-        public Long call() throws Exception {
+        public Long call() {
             long b = System.currentTimeMillis();
             for (int i = 0; i < GEN_COUNT; i++) {
                 getRandom().nextInt();

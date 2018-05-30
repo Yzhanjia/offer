@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Thirty_seven {
     public static void serialize(BinaryTreeNode root,List<Integer> result){
-        List<BinaryTreeNode> list = new LinkedList<>();
+        List<BinaryTreeNode> list = new LinkedList<BinaryTreeNode>();
         list.add(root);
         BinaryTreeNode node ;
         while (list.size()>0){
