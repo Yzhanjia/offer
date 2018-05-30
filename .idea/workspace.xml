@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ee9e194-3e0a-448c-9149-9ad67105a93e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/FairLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/ReenterLockCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/SempDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/TimeLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/TryLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPattern/ProducerAndConsumer/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPattern/ProducerAndConsumer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPattern/ProducerAndConsumer/PCData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPattern/ProducerAndConsumer/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPattern/Singleton/LazySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPattern/Singleton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPattern/Singleton/StaticSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/LockSupportDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/LockSupportIntDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/RejectThreadPoolDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BadLockOnInteger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thread/BadLockOnInteger.java">
+      <file leaf-file-name="RejectThreadPoolDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/thread/RejectThreadPoolDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="119">
+              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -39,72 +44,98 @@
       <file leaf-file-name="CountTask.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/thread/CountTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
+            <state relative-caret-position="-805">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReenterLockDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thread/ReenterLockDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimeLock.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thread/TimeLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TryLock.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thread/TryLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-20">
-              <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-              <folding>
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FairLock.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thread/FairLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReenterLockCondition.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thread/ReenterLockCondition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SempDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/thread/SempDemo.java">
+      <file leaf-file-name="Singleton.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designPattern/Singleton/Singleton.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
-              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaticSingleton.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designPattern/Singleton/StaticSingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PCData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designPattern/ProducerAndConsumer/PCData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+              <folding>
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Producer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designPattern/ProducerAndConsumer/Producer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="32" column="73" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#1351#1352#0" expanded="true" />
+                <element signature="e#1383#1384#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designPattern/ProducerAndConsumer/Consumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="28" column="73" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/designPattern/ProducerAndConsumer/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,24 +143,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IntLock.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thread/IntLock.java">
+      <file leaf-file-name="LazySingleton.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designPattern/Singleton/LazySingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+            <state relative-caret-position="529">
+              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+              <folding>
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoodSuspend.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thread/GoodSuspend.java">
+      <file leaf-file-name="ThreadPoolDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/thread/ThreadPoolDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-              <folding>
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
-              </folding>
+            <state>
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -155,17 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/thread/ReadWriteLockDemo.java" />
-        <option value="$PROJECT_DIR$/src/thread/ThreadPoolDemo.java" />
-        <option value="$PROJECT_DIR$/src/thread/ExtThreadPool.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/Rob.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/Rotate.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/SingleNumber.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/TwoSum.java" />
-        <option value="$PROJECT_DIR$/src/thread/ThreadLocalDemo.java" />
-        <option value="$PROJECT_DIR$/src/thread/ThreadLocalTest.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/Anagram.java" />
-        <option value="$PROJECT_DIR$/src/designPattern/abstractFactory/AsusFactory.java" />
         <option value="$PROJECT_DIR$/src/leetcode/DeleteNode.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Depth.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Intersect.java" />
@@ -206,6 +228,17 @@
         <option value="$PROJECT_DIR$/src/thread/FairLock.java" />
         <option value="$PROJECT_DIR$/src/thread/ReenterLockCondition.java" />
         <option value="$PROJECT_DIR$/src/thread/SempDemo.java" />
+        <option value="$PROJECT_DIR$/src/thread/ReadWriteLockDemo.java" />
+        <option value="$PROJECT_DIR$/src/thread/LockSupportDemo.java" />
+        <option value="$PROJECT_DIR$/src/thread/LockSupportIntDemo.java" />
+        <option value="$PROJECT_DIR$/src/thread/RejectThreadPoolDemo.java" />
+        <option value="$PROJECT_DIR$/src/designPattern/Singleton/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/designPattern/Singleton/LazySingleton.java" />
+        <option value="$PROJECT_DIR$/src/designPattern/Singleton/StaticSingleton.java" />
+        <option value="$PROJECT_DIR$/src/designPattern/ProducerAndConsumer/PCData.java" />
+        <option value="$PROJECT_DIR$/src/designPattern/ProducerAndConsumer/Producer.java" />
+        <option value="$PROJECT_DIR$/src/designPattern/ProducerAndConsumer/Consumer.java" />
+        <option value="$PROJECT_DIR$/src/designPattern/ProducerAndConsumer/Main.java" />
       </list>
     </option>
   </component>
@@ -218,7 +251,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-228" />
     <option name="y" value="217" />
     <option name="width" value="1346" />
@@ -249,14 +282,28 @@
               <item name="offer" type="b2602c69:ProjectViewProjectNode" />
               <item name="offer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="ProducerAndConsumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="Singleton" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,14 +343,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReadWriteLockDemo">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
     </configuration>
-    <configuration name="FairLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.FairLock" />
+    <configuration name="CountTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.CountTask" />
       <module name="offer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -313,46 +360,46 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ReadWriteLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.ReadWriteLockDemo" />
+    <configuration name="LazySingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designPattern.Singleton.LazySingleton" />
       <module name="offer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="designPattern.Singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ReenterLockCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.ReenterLockCondition" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designPattern.ProducerAndConsumer.Main" />
       <module name="offer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="designPattern.ProducerAndConsumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SempDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.SempDemo" />
+    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designPattern.Singleton.Singleton" />
       <module name="offer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="designPattern.Singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="TryLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.TryLock" />
+    <configuration name="StaticSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designPattern.Singleton.StaticSingleton" />
       <module name="offer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="designPattern.Singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -412,19 +459,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.TryLock" />
-      <item itemvalue="Application.FairLock" />
-      <item itemvalue="Application.ReenterLockCondition" />
-      <item itemvalue="Application.SempDemo" />
-      <item itemvalue="Application.ReadWriteLockDemo" />
+      <item itemvalue="Application.CountTask" />
+      <item itemvalue="Application.Singleton" />
+      <item itemvalue="Application.LazySingleton" />
+      <item itemvalue="Application.StaticSingleton" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReadWriteLockDemo" />
-        <item itemvalue="Application.SempDemo" />
-        <item itemvalue="Application.ReenterLockCondition" />
-        <item itemvalue="Application.FairLock" />
-        <item itemvalue="Application.TryLock" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.StaticSingleton" />
+        <item itemvalue="Application.LazySingleton" />
+        <item itemvalue="Application.Singleton" />
+        <item itemvalue="Application.CountTask" />
       </list>
     </recent_temporary>
   </component>
@@ -508,7 +555,8 @@
       <workItem from="1527511634996" duration="3179000" />
       <workItem from="1527582978213" duration="243000" />
       <workItem from="1527607047760" duration="3135000" />
-      <workItem from="1527639445328" duration="3686000" />
+      <workItem from="1527639445328" duration="6809000" />
+      <workItem from="1527654465014" duration="5568000" />
     </task>
     <task id="LOCAL-00001" summary="delete">
       <created>1525360607921</created>
@@ -643,7 +691,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527609847809</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="learning">
+      <created>1527643393273</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1527643393274</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -679,7 +734,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247039000" />
+    <option name="totallyTimeSpent" value="255730000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -692,7 +747,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.3289256" />
@@ -700,22 +754,21 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015129" side_tool="true" weight="0.29752067" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50378215" side_tool="true" weight="0.32561985" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4977307" weight="0.32561985" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49621785" visible="true" weight="0.32561985" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49621785" visible="true" weight="0.32561985" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289256" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8088235" visible="true" weight="0.2677761" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8014706" visible="true" weight="0.27155825" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info id="Structure" order="1" sideWeight="0.19117647" side_tool="true" visible="true" weight="0.2677761" />
+      <window_info id="Structure" order="1" sideWeight="0.1985294" side_tool="true" weight="0.27155825" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" sideWeight="0.5073892" side_tool="true" weight="0.2677761" />
+      <window_info id="Favorites" order="2" sideWeight="0.1985294" side_tool="true" visible="true" weight="0.27155825" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49848714" weight="0.27272728" />
       <window_info anchor="bottom" id="SVN Repositories" order="7" sideWeight="0.49924356" visible="true" weight="0.32874355" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -724,6 +777,7 @@
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Mybatis datasource" order="4" side_tool="true" />
     </layout>
     <layout-to-restore>
@@ -1032,98 +1086,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Rotate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/CountSay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Cycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="28" column="63" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/LongestPrefix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/MaxProfit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="52" column="2" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Palindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Mod.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetcode/MergeList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/RemoveNth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/ReverseLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/ReverseString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/ValidSudu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/VersionControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/ValidBST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -1222,34 +1184,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/StopThreadDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="92" column="25" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/InterruptDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/SleepDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/WaitAndNotifyDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/thread/ThreadGroupName.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1292,13 +1226,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/BadSuspend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_91/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24518">
@@ -1310,27 +1237,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/HashMapMultiThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="37" column="39" selection-start-line="31" selection-start-column="6" selection-end-line="37" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/thread/BadLockOnInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/CountTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1356,9 +1266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1397,10 +1304,199 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/StopThreadDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1886">
+          <caret line="92" column="25" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/WaitAndNotifyDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/SleepDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/InterruptDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/HashMapMultiThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/thread/SempDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/ReadWriteLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="50" column="32" lean-forward="true" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/CountDownLatchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/CylicBarrierDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/LockSupportDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/BadSuspend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/LockSupportIntDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/ThreadPoolDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/RejectThreadPoolDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/CountTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-805">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designPattern/Singleton/LazySingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+          <folding>
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designPattern/Singleton/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designPattern/Singleton/StaticSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designPattern/ProducerAndConsumer/PCData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designPattern/ProducerAndConsumer/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="32" column="73" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1383#1384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designPattern/ProducerAndConsumer/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="28" column="73" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designPattern/ProducerAndConsumer/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
