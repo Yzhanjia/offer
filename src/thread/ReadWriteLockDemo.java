@@ -37,8 +37,8 @@ public class ReadWriteLockDemo {
             @Override
             public void run() {
                 try {
-//                    demo.handleRead(readLock);
-                    demo.handleRead(lock);
+                    demo.handleRead(readLock);
+//                    demo.handleRead(lock);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -48,8 +48,8 @@ public class ReadWriteLockDemo {
             @Override
             public void run() {
                 try {
-//                    demo.handleWrite(writeLock,new Random().nextInt());
-                    demo.handleWrite(lock,new Random().nextInt());
+                    demo.handleWrite(writeLock,new Random().nextInt());
+//                    demo.handleWrite(lock,new Random().nextInt());
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
