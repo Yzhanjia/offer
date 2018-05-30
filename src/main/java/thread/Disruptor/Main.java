@@ -1,7 +1,6 @@
 package thread.Disruptor;
 
-import com.lmax.disruptor.BlockingWaitStrategy;
-import com.lmax.disruptor.RingBuffer;
+import com.lmax.disruptor.*;
 import com.lmax.disruptor.dsl.Disruptor;
 import com.lmax.disruptor.dsl.ProducerType;
 
@@ -19,8 +18,14 @@ public class Main {
         Executor executor = Executors.newCachedThreadPool();
         PCDataFactory factory = new PCDataFactory();
         int bufferSize = 1024;
+//        Disruptor<PCData> disruptor = new Disruptor<PCData>(factory, bufferSize, executor, ProducerType.MULTI,
+//                new BlockingWaitStrategy());
+//        Disruptor<PCData> disruptor = new Disruptor<PCData>(factory, bufferSize, executor, ProducerType.MULTI,
+//                new SleepingWaitStrategy());
+//        Disruptor<PCData> disruptor = new Disruptor<PCData>(factory, bufferSize, executor, ProducerType.MULTI,
+//                new YieldingWaitStrategy());
         Disruptor<PCData> disruptor = new Disruptor<PCData>(factory, bufferSize, executor, ProducerType.MULTI,
-                new BlockingWaitStrategy());
+                new BusySpinWaitStrategy());
         disruptor.handleEventsWithWorkerPool(new Consumer(), new Consumer(), new Consumer(), new Consumer());
         disruptor.start();
 
