@@ -7,6 +7,7 @@ package thread.Future;
  **/
 public class Client {
 
+
     public Data request(final String queryStr) {
         final FutureData future = new FutureData();
         new Thread() {
