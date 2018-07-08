@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ee9e194-3e0a-448c-9149-9ad67105a93e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_01/MyStack1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_01/MyStack2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_02/TwoStackQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_03/ReverseStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_04/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_04/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_04/DogCatQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_04/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_04/PetEnterQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_05/StackSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_06/HanoiProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_07/MaxWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,15 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TwoStackQueue.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_02/TwoStackQueue.java">
+      <file leaf-file-name="MaxWindow.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_07/MaxWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
-              <folding>
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="288">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -68,16 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/thread/LockSupportDemo.java" />
-        <option value="$PROJECT_DIR$/src/thread/LockSupportIntDemo.java" />
-        <option value="$PROJECT_DIR$/src/thread/RejectThreadPoolDemo.java" />
-        <option value="$PROJECT_DIR$/src/designPattern/Singleton/Singleton.java" />
-        <option value="$PROJECT_DIR$/src/designPattern/Singleton/LazySingleton.java" />
-        <option value="$PROJECT_DIR$/src/designPattern/Singleton/StaticSingleton.java" />
-        <option value="$PROJECT_DIR$/src/designPattern/ProducerAndConsumer/PCData.java" />
-        <option value="$PROJECT_DIR$/src/designPattern/ProducerAndConsumer/Producer.java" />
-        <option value="$PROJECT_DIR$/src/designPattern/ProducerAndConsumer/Consumer.java" />
-        <option value="$PROJECT_DIR$/src/designPattern/ProducerAndConsumer/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/levelOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/ArrayListMyltiThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/AtomicStampedReferenceDemo.java" />
@@ -119,6 +111,16 @@
         <option value="$PROJECT_DIR$/src/main/java/code/ch01/_01/MyStack1.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/ch01/_01/MyStack2.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/ch01/_02/TwoStackQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_03/ReverseStack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_04/Pet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_04/Dog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_04/Cat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_04/PetEnterQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_04/DogCatQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_05/StackSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_06/HanoiProblrm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_06/HanoiProblem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_07/MaxWindow.java" />
       </list>
     </option>
   </component>
@@ -163,8 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,13 +205,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ch01" type="462c0819:PsiDirectoryNode" />
-              <item name="_02" type="462c0819:PsiDirectoryNode" />
+              <item name="_07" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,13 +222,13 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/app-1.2.6/resources/app/git/mingw64/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JVM" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -257,30 +259,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AIOEchoServer">
+  <component name="RunManager" selected="Application.MaxWindow">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
     </configuration>
-    <configuration name="AIOEchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.NIO.AIOEchoServer" />
+    <configuration name="HanoiProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.ch01._06.HanoiProblem" />
       <module name="offer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.NIO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.NIO.Client" />
-      <module name="offer" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.NIO.*" />
+          <option name="PATTERN" value="code.ch01._06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -296,24 +287,35 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MultiThreadEchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.NIO.MultiThreadEchoServer" />
+    <configuration name="MaxWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.ch01._07.MaxWindow" />
       <module name="offer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.NIO.*" />
+          <option name="PATTERN" value="code.ch01._07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MultiThreadNIOEchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.NIO.MultiThreadNIOEchoServer" />
+    <configuration name="ReverseStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.ch01._03.ReverseStack" />
       <module name="offer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.NIO.*" />
+          <option name="PATTERN" value="code.ch01._03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="StackSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.ch01._05.StackSort" />
+      <module name="offer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code.ch01._05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -360,19 +362,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MultiThreadEchoServer" />
-      <item itemvalue="Application.Client" />
       <item itemvalue="Application.HeavyClient" />
-      <item itemvalue="Application.MultiThreadNIOEchoServer" />
-      <item itemvalue="Application.AIOEchoServer" />
+      <item itemvalue="Application.ReverseStack" />
+      <item itemvalue="Application.StackSort" />
+      <item itemvalue="Application.HanoiProblem" />
+      <item itemvalue="Application.MaxWindow" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxWindow" />
+        <item itemvalue="Application.HanoiProblem" />
+        <item itemvalue="Application.StackSort" />
+        <item itemvalue="Application.ReverseStack" />
         <item itemvalue="Application.HeavyClient" />
-        <item itemvalue="Application.AIOEchoServer" />
-        <item itemvalue="Application.MultiThreadNIOEchoServer" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.MultiThreadEchoServer" />
       </list>
     </recent_temporary>
   </component>
@@ -472,7 +474,11 @@
       <workItem from="1528598474018" duration="318000" />
       <workItem from="1530843183499" duration="112000" />
       <workItem from="1530868224999" duration="291000" />
-      <workItem from="1530876201467" duration="1447000" />
+      <workItem from="1530876201467" duration="2899000" />
+      <workItem from="1530932441567" duration="61000" />
+      <workItem from="1530959817950" duration="8807000" />
+      <workItem from="1531016205736" duration="17000" />
+      <workItem from="1531033563883" duration="2383000" />
     </task>
     <task id="LOCAL-00001" summary="delete">
       <created>1525360607921</created>
@@ -635,7 +641,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528546051717</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="learning">
+      <created>1530877710297</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1530877710297</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -671,7 +684,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288228000" />
+    <option name="totallyTimeSpent" value="300948000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -684,10 +697,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49848714" weight="0.3289256" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4977307" weight="0.29296875" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -695,20 +708,19 @@
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.17246597" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4977307" weight="0.32561985" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49546143" weight="0.3658854" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49546143" visible="true" weight="0.3658854" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.328125" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.79764706" weight="0.284041" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79764706" visible="true" weight="0.284041" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" sideWeight="0.1985294" side_tool="true" weight="0.27155825" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="4" sideWeight="0.20235294" side_tool="true" weight="0.2753404" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49848714" weight="0.27272728" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49848714" weight="0.453125" />
       <window_info anchor="bottom" id="SVN Repositories" order="8" sideWeight="0.49924356" visible="true" weight="0.32874355" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4977307" weight="0.29296875" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -722,9 +734,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49546143" weight="0.3658854" />
       <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49546143" weight="0.3658854" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
       <window_info id="UI Designer" order="3" />
@@ -749,6 +760,7 @@
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Structure" order="1" sideWeight="0.1985294" side_tool="true" weight="0.27155825" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49848714" weight="0.27272728" />
     </layout-to-restore>
   </component>
@@ -1022,44 +1034,29 @@
           <properties />
           <option name="timeStamp" value="69" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/code/ch01/_03/ReverseStack.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/code/ch01/_03/ReverseStack.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/code/ch01/_03/ReverseStack.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="72" />
+      <option name="time" value="75" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/designPattern/Singleton/StaticSingleton.java" />
-    <entry file="file://$PROJECT_DIR$/src/designPattern/ProducerAndConsumer/PCData.java" />
-    <entry file="file://$PROJECT_DIR$/src/designPattern/ProducerAndConsumer/Producer.java" />
-    <entry file="file://$PROJECT_DIR$/src/designPattern/ProducerAndConsumer/Consumer.java" />
-    <entry file="file://$PROJECT_DIR$/src/designPattern/ProducerAndConsumer/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/designPattern/ProducerAndConsumer/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designPattern/ProducerAndConsumer/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/Disruptor/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/levelOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="38" column="57" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/thread/ArrayListMyltiThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -1343,12 +1340,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_02/TwoStackQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="1080">
           <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
-          <folding>
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_03/ReverseStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_04/Pet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_04/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_04/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_04/PetEnterQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_04/DogCatQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="57" column="38" lean-forward="true" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_05/StackSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_06/HanoiProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="66" column="11" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_07/MaxWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
         </state>
       </provider>
     </entry>
