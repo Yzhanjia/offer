@@ -4,16 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/thread/NIO/Client.java" line="35" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ee9e194-3e0a-448c-9149-9ad67105a93e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_03/ReverseStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_04/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_04/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_04/DogCatQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_04/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_04/PetEnterQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_05/StackSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_06/HanoiProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_07/MaxWindow.java" afterDir="false" />
+    <list default="true" id="1ee9e194-3e0a-448c-9149-9ad67105a93e" name="Default" comment="learning">
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_08/MaxTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_08/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_09/MaxRec.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MaxWindow.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_07/MaxWindow.java">
+      <file leaf-file-name="MaxRec.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_09/MaxRec.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="-648">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -70,10 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/levelOrder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/ArrayListMyltiThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/AtomicStampedReferenceDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/AtmoicReferenceDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/HashMapMultiThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/thirty_forty/Thirty_four.java" />
         <option value="$PROJECT_DIR$/src/main/java/thirty_forty/Thirty_seven.java" />
@@ -121,6 +111,10 @@
         <option value="$PROJECT_DIR$/src/main/java/code/ch01/_06/HanoiProblrm.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/ch01/_06/HanoiProblem.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/ch01/_07/MaxWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_08/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_08/getMaxTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_08/MaxTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_09/MaxRec.java" />
       </list>
     </option>
   </component>
@@ -165,6 +159,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,13 +204,28 @@
               <item name="ch01" type="462c0819:PsiDirectoryNode" />
               <item name="_07" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01" type="462c0819:PsiDirectoryNode" />
+              <item name="_08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01" type="462c0819:PsiDirectoryNode" />
+              <item name="_09" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,7 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaxWindow">
+  <component name="RunManager" selected="Application.MaxRec">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -276,13 +288,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="HeavyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.NIO.HeavyClient" />
+    <configuration name="MaxRec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.ch01._09.MaxRec" />
       <module name="offer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.NIO.*" />
+          <option name="PATTERN" value="code.ch01._09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -362,19 +374,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.HeavyClient" />
       <item itemvalue="Application.ReverseStack" />
       <item itemvalue="Application.StackSort" />
       <item itemvalue="Application.HanoiProblem" />
       <item itemvalue="Application.MaxWindow" />
+      <item itemvalue="Application.MaxRec" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxRec" />
         <item itemvalue="Application.MaxWindow" />
         <item itemvalue="Application.HanoiProblem" />
         <item itemvalue="Application.StackSort" />
         <item itemvalue="Application.ReverseStack" />
-        <item itemvalue="Application.HeavyClient" />
       </list>
     </recent_temporary>
   </component>
@@ -479,6 +491,7 @@
       <workItem from="1530959817950" duration="8807000" />
       <workItem from="1531016205736" duration="17000" />
       <workItem from="1531033563883" duration="2383000" />
+      <workItem from="1531037495595" duration="7020000" />
     </task>
     <task id="LOCAL-00001" summary="delete">
       <created>1525360607921</created>
@@ -684,7 +697,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="300948000" />
+    <option name="totallyTimeSpent" value="307968000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -697,6 +710,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49848714" weight="0.3289256" />
@@ -708,11 +722,11 @@
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.17246597" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4977307" weight="0.32561985" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49546143" visible="true" weight="0.3658854" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49546143" weight="0.3658854" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.328125" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79764706" visible="true" weight="0.284041" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.79764706" weight="0.284041" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" sideWeight="0.1985294" side_tool="true" weight="0.27155825" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -731,13 +745,12 @@
       <window_info anchor="right" id="Mybatis datasource" order="9" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49546143" weight="0.3658854" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.20235294" side_tool="true" weight="0.2753404" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.328125" />
@@ -760,6 +773,7 @@
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Structure" order="1" sideWeight="0.1985294" side_tool="true" weight="0.27155825" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49848714" weight="0.27272728" />
     </layout-to-restore>
@@ -1057,27 +1071,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ArrayListMyltiThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/Disruptor/PCData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/Disruptor/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/thread/AtomicStampedReferenceDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -1403,8 +1396,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_07/MaxWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="144">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_08/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#173#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_08/MaxTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_09/MaxRec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-648">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
