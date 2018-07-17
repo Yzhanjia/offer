@@ -1,12 +1,8 @@
 package code.ch02._01;
 
-public class Node {
-    public int value;
-    public Node next;
+import code.ch02.Node;
 
-    public Node(int value) {
-        this.value = value;
-    }
+public class Common {
 
     public void printCommonPart(Node head1, Node head2) {
         System.out.println("Common part: ");

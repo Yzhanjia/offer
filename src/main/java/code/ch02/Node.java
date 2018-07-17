@@ -1,4 +1,4 @@
-package code.ch02._02;
+package code.ch02;
 
 public class Node {
     public int value;
