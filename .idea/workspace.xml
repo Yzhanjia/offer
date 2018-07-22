@@ -4,19 +4,21 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/thread/NIO/Client.java" line="35" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ee9e194-3e0a-448c-9149-9ad67105a93e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch02/_03/RemoveMidNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch02/_04/ReverseNodeList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch02/_05/ReversePart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch02/_06/Josephus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch02/_07/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch02/_08/Partition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch02/_09/Node.java" afterDir="false" />
+    <list default="true" id="1ee9e194-3e0a-448c-9149-9ad67105a93e" name="Default" comment="2018.7.17">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_8_0_beta2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Work/CompactAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Work/Copy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch02/_10/ListAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch02/_11/Intersect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch02/_12/ReverseKNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch02/_13/RemoveRepeat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/ch02/_01/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/ch02/_01/Common.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/ch02/_02/DoubleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/ch02/DoubleNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/ch02/_02/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/ch02/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/ch02/_02/RemoveLastKth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/ch02/_02/RemoveLastKth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/offer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/offer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/ch01/_01/MyStack2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_01/MyStack2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/ch02/_09/RandomNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/ch02/_09/RandomNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,6 +28,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/offer$Intersect.ic" NAME="Intersect Coverage Results" MODIFIED="1526717518893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -37,13 +42,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Node.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_09/Node.java">
+      <file leaf-file-name="RemoveRepeat.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_13/RemoveRepeat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            <state relative-caret-position="695">
+              <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
               <folding>
-                <element signature="e#165#166#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,16 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/thread/Future/FutureData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/Future/RealData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/Future/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/Future/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/Future/RealData_jdk.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/Future/FutureMain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/assemblyLine/Msg.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/assemblyLine/Plus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/assemblyLine/Multiply.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/assemblyLine/Div.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/assemblyLine/PStreamMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/sort/OddEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/sort/OddEven.java" />
@@ -95,7 +90,6 @@
         <option value="$PROJECT_DIR$/src/main/java/thread/NIO/AIOClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/NIO/AIOEchoServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/ch01/_01/MyStack1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_01/MyStack2.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/ch01/_02/TwoStackQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/ch01/_03/ReverseStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/ch01/_04/Pet.java" />
@@ -126,6 +120,17 @@
         <option value="$PROJECT_DIR$/src/main/java/code/ch02/_07/Palindrome.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/ch02/_08/Partition.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/ch02/_09/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_09/RandomNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_10/ListAdd.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Work/XMLDom.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Work/CompactAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Work/Copy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_01/MyStack2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_11/I.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_11/Intersect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_12/ReverseKNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_13/RemoveRepeat.java" />
       </list>
     </option>
   </component>
@@ -156,7 +161,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1366" />
     <option name="height" value="768" />
   </component>
@@ -168,6 +173,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,7 +216,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="ch02" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="offer" type="b2602c69:ProjectViewProjectNode" />
@@ -217,7 +225,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="ch02" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01" type="462c0819:PsiDirectoryNode" />
               <item name="_01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -228,7 +236,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="ch02" type="462c0819:PsiDirectoryNode" />
-              <item name="_02" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="offer" type="b2602c69:ProjectViewProjectNode" />
@@ -238,7 +245,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="ch02" type="462c0819:PsiDirectoryNode" />
-              <item name="_04" type="462c0819:PsiDirectoryNode" />
+              <item name="_11" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="offer" type="b2602c69:ProjectViewProjectNode" />
@@ -248,7 +255,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="ch02" type="462c0819:PsiDirectoryNode" />
-              <item name="_05" type="462c0819:PsiDirectoryNode" />
+              <item name="_12" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="offer" type="b2602c69:ProjectViewProjectNode" />
@@ -258,7 +265,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="ch02" type="462c0819:PsiDirectoryNode" />
-              <item name="_06" type="462c0819:PsiDirectoryNode" />
+              <item name="_13" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="offer" type="b2602c69:ProjectViewProjectNode" />
@@ -266,37 +273,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="ch02" type="462c0819:PsiDirectoryNode" />
-              <item name="_07" type="462c0819:PsiDirectoryNode" />
+              <item name="Work" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="offer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="ch02" type="462c0819:PsiDirectoryNode" />
-              <item name="_08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="ch02" type="462c0819:PsiDirectoryNode" />
-              <item name="_09" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,13 +291,13 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JVM" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -345,11 +331,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaxRec">
+  <component name="RunManager" selected="Application.Copy">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
+    </configuration>
+    <configuration name="CompactAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Work.CompactAlgorithm" />
+      <module name="offer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Work.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Copy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Work.Copy" />
+      <module name="offer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Work.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="HanoiProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="code.ch01._06.HanoiProblem" />
@@ -380,28 +388,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="code.ch01._07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ReverseStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code.ch01._03.ReverseStack" />
-      <module name="offer" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="code.ch01._03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="StackSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code.ch01._05.StackSort" />
-      <module name="offer" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="code.ch01._05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -448,19 +434,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ReverseStack" />
-      <item itemvalue="Application.StackSort" />
       <item itemvalue="Application.HanoiProblem" />
       <item itemvalue="Application.MaxWindow" />
       <item itemvalue="Application.MaxRec" />
+      <item itemvalue="Application.CompactAlgorithm" />
+      <item itemvalue="Application.Copy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Copy" />
+        <item itemvalue="Application.CompactAlgorithm" />
         <item itemvalue="Application.MaxRec" />
         <item itemvalue="Application.MaxWindow" />
         <item itemvalue="Application.HanoiProblem" />
-        <item itemvalue="Application.StackSort" />
-        <item itemvalue="Application.ReverseStack" />
       </list>
     </recent_temporary>
   </component>
@@ -573,7 +559,12 @@
       <workItem from="1531539197471" duration="2000" />
       <workItem from="1531541790676" duration="3000" />
       <workItem from="1531745184623" duration="2936000" />
-      <workItem from="1531828508087" duration="2554000" />
+      <workItem from="1531828508087" duration="4107000" />
+      <workItem from="1531835521424" duration="1933000" />
+      <workItem from="1531912167052" duration="7751000" />
+      <workItem from="1532089631805" duration="1292000" />
+      <workItem from="1532171883060" duration="5582000" />
+      <workItem from="1532221366560" duration="5040000" />
     </task>
     <task id="LOCAL-00001" summary="delete">
       <created>1525360607921</created>
@@ -757,7 +748,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531144586381</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="2018.7.17">
+      <created>1531831394121</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1531831394121</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -793,7 +791,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="332578000" />
+    <option name="totallyTimeSpent" value="355729000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -805,7 +803,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="7" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49848714" weight="0.3289256" />
@@ -819,7 +818,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.328125" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79764706" visible="true" weight="0.284041" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.79764706" weight="0.284041" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" sideWeight="0.1985294" side_tool="true" weight="0.27155825" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -830,7 +829,7 @@
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4977307" weight="0.29296875" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49546143" weight="0.3658854" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49546143" weight="0.2903646" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -840,12 +839,13 @@
       <window_info anchor="right" id="Mybatis datasource" order="9" side_tool="true" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49546143" weight="0.3658854" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.20235294" side_tool="true" weight="0.2753404" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.328125" />
@@ -868,7 +868,6 @@
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Structure" order="1" sideWeight="0.1985294" side_tool="true" weight="0.27155825" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49848714" weight="0.27272728" />
     </layout-to-restore>
@@ -935,7 +934,8 @@
     <MESSAGE value="learning" />
     <MESSAGE value="2018.7.8" />
     <MESSAGE value="2018.7.9" />
-    <option name="LAST_COMMIT_MESSAGE" value="2018.7.9" />
+    <MESSAGE value="2018.7.17" />
+    <option name="LAST_COMMIT_MESSAGE" value="2018.7.17" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1170,17 +1170,56 @@
           <option name="timeStamp" value="75" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="76" />
+      <option name="time" value="77" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_11/Intersect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Work/CompactAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_01/MyStack1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Work/Copy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_10/ListAdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2088">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_09/RandomNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_07/Palindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3168">
           <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1209,9 +1248,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3168">
           <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1226,8 +1262,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_09/RandomNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_10/ListAdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="84" column="18" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_01/Common.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_02/RemoveLastKth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Work/XMLDom.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Work/Copy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_01/MyStack2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Work/CompactAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_01/MyStack1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_11/I.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_11/Intersect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_12/ReverseKNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="77" column="19" lean-forward="true" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
           <folding>
-            <element signature="e#165#166#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_13/RemoveRepeat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

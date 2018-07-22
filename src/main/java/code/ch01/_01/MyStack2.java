@@ -5,7 +5,6 @@ import java.util.Stack;
 public class MyStack2 {
     private Stack<Integer> stackData;
     private Stack<Integer> stackMin;
-
     public MyStack2() {
         this.stackData = new Stack<>();
         this.stackMin = new Stack<>();
