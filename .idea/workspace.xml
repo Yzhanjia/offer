@@ -4,21 +4,15 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/thread/NIO/Client.java" line="35" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ee9e194-3e0a-448c-9149-9ad67105a93e" name="Default" comment="2018.7.17">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_8_0_beta2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Work/CompactAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Work/Copy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch02/_10/ListAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch02/_11/Intersect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch02/_12/ReverseKNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch02/_13/RemoveRepeat.java" afterDir="false" />
+    <list default="true" id="1ee9e194-3e0a-448c-9149-9ad67105a93e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch02/_14/RemoveValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch02/_15/ConvertNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch02/_15/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch02/_16/SelectSortNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch02/_17/RemoveSpecifiedNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch02/_18/InsertNumNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/offer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/offer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/ch01/_01/MyStack2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_01/MyStack2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/ch02/_09/RandomNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/ch02/_09/RandomNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/ch02/_13/RemoveRepeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/ch02/_13/RemoveRepeat.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,14 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RemoveRepeat.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_13/RemoveRepeat.java">
+      <file leaf-file-name="InsertNumNode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_18/InsertNumNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="648">
+              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -80,12 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/thread/assemblyLine/PStreamMain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/sort/OddEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/sort/OddEven.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/NIO/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/NIO/HeavyClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/NIO/MultiThreadEchoServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/NIO/MultiThreadNIOEchoServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/NIO/AIOClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/NIO/AIOEchoServer.java" />
@@ -131,6 +116,12 @@
         <option value="$PROJECT_DIR$/src/main/java/code/ch02/_11/Intersect.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/ch02/_12/ReverseKNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/ch02/_13/RemoveRepeat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_14/RemoveValue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_15/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_15/ConvertNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_16/SelectSortNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_17/RemoveSpecifiedNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_18/InsertNumNode.java" />
       </list>
     </option>
   </component>
@@ -173,9 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,25 +204,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="ch01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="ch01" type="462c0819:PsiDirectoryNode" />
-              <item name="_01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="ch02" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -245,27 +214,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="ch02" type="462c0819:PsiDirectoryNode" />
-              <item name="_11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="ch02" type="462c0819:PsiDirectoryNode" />
-              <item name="_12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="ch02" type="462c0819:PsiDirectoryNode" />
-              <item name="_13" type="462c0819:PsiDirectoryNode" />
+              <item name="_18" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="offer" type="b2602c69:ProjectViewProjectNode" />
@@ -275,14 +224,13 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Work" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,7 +245,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -564,7 +512,10 @@
       <workItem from="1531912167052" duration="7751000" />
       <workItem from="1532089631805" duration="1292000" />
       <workItem from="1532171883060" duration="5582000" />
-      <workItem from="1532221366560" duration="5040000" />
+      <workItem from="1532221366560" duration="6887000" />
+      <workItem from="1532257184033" duration="5781000" />
+      <workItem from="1532354389856" duration="632000" />
+      <workItem from="1532438562194" duration="7477000" />
     </task>
     <task id="LOCAL-00001" summary="delete">
       <created>1525360607921</created>
@@ -755,7 +706,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531831394121</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="2018.7.22">
+      <created>1532232385560</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1532232385561</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -791,7 +749,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="355729000" />
+    <option name="totallyTimeSpent" value="371466000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -824,7 +782,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Favorites" order="4" sideWeight="0.20235294" side_tool="true" weight="0.2753404" />
+      <window_info id="Favorites" order="4" sideWeight="0.20235294" side_tool="true" weight="0.27525622" />
       <window_info anchor="bottom" id="SVN Repositories" order="8" sideWeight="0.49924356" visible="true" weight="0.32874355" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4977307" weight="0.29296875" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -839,13 +797,12 @@
       <window_info anchor="right" id="Mybatis datasource" order="9" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49546143" weight="0.3658854" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.20235294" side_tool="true" weight="0.2753404" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.328125" />
@@ -868,6 +825,7 @@
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Structure" order="1" sideWeight="0.1985294" side_tool="true" weight="0.27155825" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49848714" weight="0.27272728" />
     </layout-to-restore>
@@ -935,7 +893,8 @@
     <MESSAGE value="2018.7.8" />
     <MESSAGE value="2018.7.9" />
     <MESSAGE value="2018.7.17" />
-    <option name="LAST_COMMIT_MESSAGE" value="2018.7.17" />
+    <MESSAGE value="2018.7.22" />
+    <option name="LAST_COMMIT_MESSAGE" value="2018.7.22" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1169,11 +1128,46 @@
           <properties />
           <option name="timeStamp" value="75" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/code/ch02/_18/InsertNumNode.java</url>
+          <line>8</line>
+          <properties class="code.ch02._18.InsertNumNode" method="insertNode">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="77" />
+      <option name="time" value="78" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_15/ConvertNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_15/ConvertNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1872">
+          <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_13/RemoveRepeat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_11/Intersect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1315,13 +1309,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Work/CompactAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_01/MyStack1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -1341,19 +1328,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="77" column="19" lean-forward="true" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_13/RemoveRepeat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_14/RemoveValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_15/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_15/ConvertNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_13/RemoveRepeat.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Work/CompactAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1260">
+          <caret line="87" column="16" lean-forward="true" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_16/SelectSortNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="695">
-          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_17/RemoveSpecifiedNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_18/InsertNumNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
         </state>
       </provider>
     </entry>

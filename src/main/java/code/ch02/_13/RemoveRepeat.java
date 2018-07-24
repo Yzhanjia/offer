@@ -25,7 +25,7 @@ public class RemoveRepeat {
         }
     }
 
-    //空间复杂度为O(1)
+    //空间复杂度为O(1)，时间复杂度为O(N^2),类似选择排序
     public static void removeRep2(Node head) {
         Node cur = null;
         Node pre = null;
