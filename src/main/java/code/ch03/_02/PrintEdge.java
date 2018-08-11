@@ -86,22 +86,22 @@ public class PrintEdge {
         if (head == null) {
             return;
         }
+        //叶子节点和边界节点的延伸为边界节点
         if (print || (head.left == null && head.right == null)) {
             System.out.println(head.value + " ");
         }
-        printLeftEdge(head.left, print);
-        printLeftEdge(head.right, print && head.left == null);
+        printLeftEdge(head.left, print);//左边界的左节点为边界节点
+        printLeftEdge(head.right, print && head.left == null);//如果左边界的左节点为空，则左边界的右节点为边界节点
     }
 
     private static void printRightEdge(Node head, boolean print) {
         if (head == null) {
-
-
+            return;
         }
         printRightEdge(head.left, print && head.right == null);
         printRightEdge(head.right, print);
         if (print || (head.left == null && head.right == null)) {
-            System.out.println(head.value + " ");
+            System.out.println(head.value + " ");//递归到底层，从下往上打印
         }
     }
 }
