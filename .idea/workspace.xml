@@ -6,18 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ee9e194-3e0a-448c-9149-9ad67105a93e" name="Default" comment="2018.7.24">
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch03/_04/SerialTreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch03/_05/Morris.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch03/_06/TreeNodeMaxLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch03/_07/BiggestBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch03/_08/BSTTopoSize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch03/_09/PrintNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch03/_10/GetErrorTwoNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch08/_11/UnSortArrayMaxLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/GroupAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/question/ExtendTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch05/_01/Deformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch05/_02/AddStringSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/ch03/_02/PrintEdge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/ch03/_02/PrintEdge.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,29 +34,31 @@
           <entry key="project.open.time.15" value="8" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.18" value="3" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="52" />
+          <entry key="java" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="52" />
+          <entry key="JAVA" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="15043" />
+          <entry key="dummy" value="3" />
+          <entry key="java" value="15964" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15035" />
+          <entry key="JAVA" value="15956" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="RegExp" value="8" />
         </counts>
       </usages-collector>
@@ -77,13 +70,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/code/ch03/_10/GetErrorTwoNodes.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/code/ch05/_02/AddStringSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="622">
-              <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="303">
+              <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -115,9 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_09/MaxRec.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_10/GetTheNum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_02.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/ch02/_02/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/ch02/_02/DoubleNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/ch02/Node.java" />
@@ -166,6 +153,9 @@
         <option value="$PROJECT_DIR$/src/main/java/code/ch03/_08/BSTTopoSize.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/ch03/_09/PrintNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/ch03/_10/GetErrorTwoNodes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch05/_01/DeFomation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch05/_01/Deformation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch05/_02/AddStringSum.java" />
       </list>
     </option>
   </component>
@@ -205,6 +195,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -216,6 +207,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,17 +248,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="ch03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="ch03" type="462c0819:PsiDirectoryNode" />
-              <item name="_07" type="462c0819:PsiDirectoryNode" />
+              <item name="ch05" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="offer" type="b2602c69:ProjectViewProjectNode" />
@@ -297,15 +279,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/92160/IdeaProjects/offer/src/main/java/code/ch03/Node.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533981285803" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534088424123" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
@@ -349,7 +329,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExtendTest">
+  <component name="RunManager" selected="Application.Deformation">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -358,13 +338,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompactAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Work.CompactAlgorithm" />
+    <configuration name="Deformation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.ch05._01.Deformation" />
       <module name="offer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Work.*" />
+          <option name="PATTERN" value="code.ch05._01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -449,19 +429,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CompactAlgorithm" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.GroupAnagrams" />
       <item itemvalue="Application.ExtendTest" />
+      <item itemvalue="Application.Deformation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Deformation" />
         <item itemvalue="Application.ExtendTest" />
         <item itemvalue="Application.GroupAnagrams" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.CompactAlgorithm" />
       </list>
     </recent_temporary>
   </component>
@@ -597,6 +577,7 @@
       <workItem from="1533820011327" duration="7331000" />
       <workItem from="1533952472919" duration="9332000" />
       <workItem from="1533975535879" duration="7405000" />
+      <workItem from="1534086511417" duration="1884000" />
     </task>
     <task id="LOCAL-00001" summary="delete">
       <created>1525360607921</created>
@@ -837,7 +818,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="443953000" />
+    <option name="totallyTimeSpent" value="445837000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1507,10 +1488,24 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/code/ch03/_10/GetErrorTwoNodes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="622">
-          <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
+          <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch05/_01/Deformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch05/_02/AddStringSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
         </state>
       </provider>
     </entry>
