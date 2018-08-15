@@ -6,9 +6,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ee9e194-3e0a-448c-9149-9ad67105a93e" name="Default" comment="2018.7.24">
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch05/_01/Deformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch05/_02/AddStringSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch05/_03/RemoveKZeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch05/_04/IsRotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch05/_05/VaildNumString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch05/_06/ReplaceString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/ch05/_07/CountChar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/ch01/_01/MyStack1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_01/MyStack1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/ch01/_01/MyStack2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_01/MyStack2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/ch01/_02/TwoStackQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_02/TwoStackQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/ch01/_03/ReverseStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_03/ReverseStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/ch01/_04/DogCatQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_04/DogCatQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/ch01/_05/StackSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_05/StackSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/ch01/_06/HanoiProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_06/HanoiProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/ch01/_07/MaxWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_07/MaxWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/ch01/_08/MaxTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_08/MaxTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/ch01/_09/MaxRec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_09/MaxRec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/ch01/_10/GetTheNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/ch01/_10/GetTheNum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,33 +45,34 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="5" />
-          <entry key="project.open.time.15" value="8" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="9" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.17" value="3" />
           <entry key="project.open.time.18" value="3" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="54" />
+          <entry key="java" value="91" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="54" />
+          <entry key="JAVA" value="91" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
-          <entry key="java" value="15964" />
+          <entry key="java" value="21822" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15956" />
+          <entry key="JAVA" value="21814" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="RegExp" value="8" />
         </counts>
@@ -70,10 +85,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/code/ch05/_02/AddStringSum.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_10/GetTheNum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+            <state relative-caret-position="622">
+              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -105,26 +120,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_02/Node.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_02/DoubleNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code/ch02/Node.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_02/RemoveLastKth.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_01/Node.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_01/Common.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_03/RemoveMidNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_04/ReverseNodeList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_05/ReversePart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_06/Josephus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_07/Palindrome.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_08/Partition.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_09/Node.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_09/RandomNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code/ch02/_10/ListAdd.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Work/XMLDom.java" />
         <option value="$PROJECT_DIR$/src/main/java/Work/CompactAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/main/java/Work/Copy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_01/MyStack2.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/ch02/_11/I.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/ch02/_11/Intersect.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/ch02/_12/ReverseKNode.java" />
@@ -156,6 +155,22 @@
         <option value="$PROJECT_DIR$/src/main/java/code/ch05/_01/DeFomation.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/ch05/_01/Deformation.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/ch05/_02/AddStringSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch05/_03/RemoveKZeros.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch05/_04/IsRotation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch05/_05/VaildNumString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch05/_06/ReplaceString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch05/_07/CountChar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_01/MyStack1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_01/MyStack2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_02/TwoStackQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_03/ReverseStack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_04/DogCatQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_05/StackSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_06/HanoiProblem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_07/MaxWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_08/MaxTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_09/MaxRec.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code/ch01/_10/GetTheNum.java" />
       </list>
     </option>
   </component>
@@ -248,6 +263,174 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01" type="462c0819:PsiDirectoryNode" />
+              <item name="_01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01" type="462c0819:PsiDirectoryNode" />
+              <item name="_02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01" type="462c0819:PsiDirectoryNode" />
+              <item name="_03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01" type="462c0819:PsiDirectoryNode" />
+              <item name="_04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01" type="462c0819:PsiDirectoryNode" />
+              <item name="_05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01" type="462c0819:PsiDirectoryNode" />
+              <item name="_06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01" type="462c0819:PsiDirectoryNode" />
+              <item name="_07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01" type="462c0819:PsiDirectoryNode" />
+              <item name="_08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01" type="462c0819:PsiDirectoryNode" />
+              <item name="_09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01" type="462c0819:PsiDirectoryNode" />
+              <item name="_10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="ch02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="ch02" type="462c0819:PsiDirectoryNode" />
+              <item name="_01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="ch02" type="462c0819:PsiDirectoryNode" />
+              <item name="_02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="ch02" type="462c0819:PsiDirectoryNode" />
+              <item name="_04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="ch02" type="462c0819:PsiDirectoryNode" />
+              <item name="_06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="ch02" type="462c0819:PsiDirectoryNode" />
+              <item name="_17" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="ch05" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -257,7 +440,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="_11" type="462c0819:PsiDirectoryNode" />
+              <item name="ch05" type="462c0819:PsiDirectoryNode" />
+              <item name="_05" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="offer" type="b2602c69:ProjectViewProjectNode" />
@@ -285,7 +469,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/92160/IdeaProjects/offer/src/main/java/code/ch03/Node.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534088424123" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534343911352" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
@@ -329,7 +513,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Deformation">
+  <component name="RunManager" selected="Application.IsRotation">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -380,13 +564,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Work.Test" />
+    <configuration name="IsRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.ch05._04.IsRotation" />
       <module name="offer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Work.*" />
+          <option name="PATTERN" value="code.ch05._04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveKZeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.ch05._03.RemoveKZeros" />
+      <module name="offer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code.ch05._03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -396,20 +594,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Work.test" />
-      <module name="offer" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Work.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -429,19 +613,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.test" />
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.GroupAnagrams" />
       <item itemvalue="Application.ExtendTest" />
       <item itemvalue="Application.Deformation" />
+      <item itemvalue="Application.RemoveKZeros" />
+      <item itemvalue="Application.IsRotation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsRotation" />
+        <item itemvalue="Application.RemoveKZeros" />
         <item itemvalue="Application.Deformation" />
         <item itemvalue="Application.ExtendTest" />
         <item itemvalue="Application.GroupAnagrams" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -578,6 +762,10 @@
       <workItem from="1533952472919" duration="9332000" />
       <workItem from="1533975535879" duration="7405000" />
       <workItem from="1534086511417" duration="1884000" />
+      <workItem from="1534161889890" duration="5898000" />
+      <workItem from="1534255142797" duration="4880000" />
+      <workItem from="1534333444095" duration="1079000" />
+      <workItem from="1534334751073" duration="10666000" />
     </task>
     <task id="LOCAL-00001" summary="delete">
       <created>1525360607921</created>
@@ -818,7 +1006,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="445837000" />
+    <option name="totallyTimeSpent" value="468360000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1176,19 +1364,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/code/ch01/_03/ReverseStack.java</url>
-          <line>10</line>
+          <line>15</line>
           <properties />
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/code/ch01/_03/ReverseStack.java</url>
-          <line>20</line>
+          <line>25</line>
           <properties />
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/code/ch01/_03/ReverseStack.java</url>
-          <line>22</line>
+          <line>27</line>
           <properties />
           <option name="timeStamp" value="74" />
         </line-breakpoint>
@@ -1210,106 +1398,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_06/Josephus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_07/Palindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3168">
-          <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_08/Partition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="96" column="54" selection-start-line="96" selection-start-column="54" selection-end-line="96" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_09/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_09/RandomNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_10/ListAdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="84" column="18" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_01/Common.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_02/RemoveLastKth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Work/XMLDom.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Work/Copy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_01/MyStack2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_01/MyStack1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_11/I.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_11/Intersect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_12/ReverseKNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="77" column="19" lean-forward="true" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_13/RemoveRepeat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1342,13 +1430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_17/RemoveSpecifiedNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -1489,9 +1570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="622">
           <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1506,6 +1584,174 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch05/_03/RemoveKZeros.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch05/_04/IsRotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch05/_05/VaildNumString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch05/_06/ReplaceString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch05/_07/CountChar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_01/MyStack1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_01/MyStack2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_01/Common.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_17/RemoveSpecifiedNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_06/Josephus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1189">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch02/_04/ReverseNodeList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_02/TwoStackQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_03/ReverseStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_04/PetEnterQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_04/Pet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_04/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_04/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_04/DogCatQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_05/StackSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_06/HanoiProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1318">
+          <caret line="121" column="19" selection-start-line="121" selection-start-column="19" selection-end-line="121" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_07/MaxWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_08/MaxTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_09/MaxRec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="59" column="36" lean-forward="true" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/ch01/_10/GetTheNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
         </state>
       </provider>
     </entry>
