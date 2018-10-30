@@ -3,8 +3,8 @@ package code.ch02._15;
 import java.util.LinkedList;
 import java.util.Queue;
 
-/*
-   将搜索二叉树转化为双向链表
+/**
+ *    将搜索二叉树转化为双向链表
  */
 public class ConvertNode {
     //使用队列，中序遍历

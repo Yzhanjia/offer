@@ -2,8 +2,8 @@ package code.ch02._16;
 
 import code.ch02.Node;
 
-/*.
-   空间复杂度为O(1),对未排序的链表进行选择排序
+/**
+ *   空间复杂度为O(1),对未排序的链表进行选择排序
  */
 public class SelectSortNode {
     //逐个找到最小的节点放至尾节点，实现从小到大排序

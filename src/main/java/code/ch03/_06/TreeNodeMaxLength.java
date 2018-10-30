@@ -40,7 +40,9 @@ public class TreeNodeMaxLength {
         maxLen = preOrder(head.left, sum, curSum, level + 1, maxLen, sumMap);
         maxLen = preOrder(head.right, sum, curSum, level + 1, maxLen, sumMap);
         if (level == sumMap.get(curSum)) {
-            sumMap.remove(curSum);//除去当前层，即j-1
+            //除去当前层，不同路径不可相加，除去时代表路径当前层已遍历，返回后会返回上一层，
+            // 从其他路径继续
+            sumMap.remove(curSum);
         }
         return maxLen;
     }

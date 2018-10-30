@@ -2,8 +2,8 @@ package code.ch02._17;
 
 import code.ch02.Node;
 
-/*
-   给定一个节点，不给头结点，删除该节点
+/**
+ *    给定一个节点，不给头结点，删除该节点
  */
 public class RemoveSpecifiedNode {
     //将node.value = node.next.value, 该方法无法删除尾节点

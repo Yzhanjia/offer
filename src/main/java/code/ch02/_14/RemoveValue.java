@@ -4,8 +4,8 @@ import code.ch02.Node;
 
 import java.util.Stack;
 
-/*
-删除所有为指定值得节点
+/**
+ * 删除所有为指定值的节点
  */
 public class RemoveValue {
     //利用栈

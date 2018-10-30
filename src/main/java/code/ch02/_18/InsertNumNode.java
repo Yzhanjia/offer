@@ -2,8 +2,8 @@ package code.ch02._18;
 
 import code.ch02.Node;
 
-/*
-  给定升序的环形单链表，生成值为num的节点插入链表，使插入后的链表依旧有序
+/**
+ *   给定升序的环形单链表，生成值为num的节点插入链表，使插入后的链表依旧有序
  */
 public class InsertNumNode {
     public static Node insertNode(Node head, int num) {

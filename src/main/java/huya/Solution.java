@@ -11,6 +11,19 @@ public class Solution {
         Encypt(s);
 
     }
+
+    public static int[] parseSampleInput() {
+        Scanner scanner = new Scanner(System.in);
+        while (scanner.hasNext()) {
+            String[] t1 = scanner.nextLine().split(" ");
+            int[] t2 = new int[t1.length];
+            for (int i = 0; i < t1.length; i++) {
+                t2[i] = Integer.valueOf(t1[i]);
+            }
+            return t2;
+        }
+        return null;
+    }
     public static void Encypt(String s){
         Map<Character, Character> map = new HashMap<Character, Character>();
         StringBuilder stringBuilder = new StringBuilder();

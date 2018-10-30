@@ -2,6 +2,9 @@ package code.ch02._05;
 
 import code.ch02.Node;
 
+/**
+ * 反转部分单向链表
+ */
 public class ReversePart {
     public Node reversePart(Node head, int from, int to) {
         int len = 0;

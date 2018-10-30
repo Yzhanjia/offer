@@ -4,6 +4,9 @@ import code.ch02.Node;
 
 import java.util.Stack;
 
+/**
+ * 将单链表的每K个节点之间逆序
+ */
 public class ReverseKNode {
     /*
     通过栈来分别逆转K个节点
@@ -71,11 +74,13 @@ public class ReverseKNode {
         return head;
     }
 
-    /*
-    left: 上一组的最后一个节点
-    start：本组的第一个节点
-    end; 本组最后一个节点
-    right：下一组的第一个节点
+
+    /**
+     *
+     * @param left 上一组的最后一个节点
+     * @param start 本组的第一个节点
+     * @param end 本组最后一个节点
+     * @param right 下一组的第一个节点
      */
     private static void resign2(Node left, Node start, Node end, Node right) {
         Node pre = start;

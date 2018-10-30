@@ -2,9 +2,15 @@ package code.ch02._11;
 
 import code.ch02.Node;
 
+/**
+ * 两个链表相交，求橡胶的第一个节点，否则返回null
+ */
 public class Intersect {
-    /*
-    获取第一个相交结点，两条链表都可能为环
+    /**
+     * 获取第一个相交结点，两条链表都可能为环
+     * @param head1
+     * @param head2
+     * @return
      */
     public static Node getInterectNode(Node head1, Node head2) {
         if (head1 == null || head2 == null) {
